@@ -553,18 +553,17 @@ button {
 
 .portfolio_container {
   overflow: initial;
-  height: 500px;
+  height: 400px;
   
 }
 
 .portfolio_content {
   padding: 0 2.5rem;
-  height: 500px;
+  height: 400px;
   width: 1500px;
 }
 
 .portfolio_img {
-  width: 1000px;
   height: 401px;
   border-radius: 0.5rem;
   justify-self: center;
