@@ -103,7 +103,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
-  color: var(--text-color);
+  color: white;
 }
 
 h1,
@@ -374,6 +374,18 @@ button {
 }
 
 /* ABOUT */
+
+#projects{
+  background-color: #711A75;
+  padding-bottom: 100px;
+}
+#about{
+  background-color: #711A75;
+  padding-bottom: 100px;
+}
+#home{
+  padding-bottom: 100px;
+}
 .about_img {
   width: 200px;
   border-radius: 0.5rem;
@@ -485,6 +497,7 @@ button {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: var(--mb-2);
+  background-color: #711A75;
 }
 
 .qualification_button {
