@@ -703,10 +703,13 @@ button {
 .footer_title {
   font-size: var(--h1-font-size);
   margin-bottom: var(--mb-0-25);
+  padding-right: 40px;
+  
 }
 
 .footer_subtitle {
   font-size: var(--small-font-size);
+  
 }
 
 .footer_links {
