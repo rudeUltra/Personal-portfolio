@@ -5,17 +5,18 @@
 
   --hue-color: 250;
   --first-color: hsl(var(--hue-color), 69%, 61%); /* #6e57e0 */
-  --first-color-second: hsl(var(--hue-color), 69%, 61%);
+  --first-color-second: hsl(var(--hue-color), 30%, 8%);
   --first-color-alt: hsl(var(--hue-color), 57%, 53%); /* #7d6bd6 */
   --first-color-lighter: hsl(var(--hue-color), 92%, 85%); /* #c2b6fc */
-  --title-color: hsl(var(--hue-color), 8%, 15%);
-  --text-color: hsl(var(--hue-color), 8%, 45%);
+  --title-color: hsl(var(--hue-color), 8%, 95%);
+  --text-color: hsl(var(--hue-color), 8%, 75%);
   --text-color-light: hsl(var(--hue-color), 8%, 65%);
-  --input-color: hsl(var(--hue-color), 70%, 96%);
-  --body-color: hsl(var(--hue-color), 60%, 99%);
-  --container-color: #fff;
-  --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
-  --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+  --input-color: hsl(var(--hue-color), 29%, 16%);
+  --body-color: hsl(var(--hue-color), 28%, 12%);
+  --container-color: hsl(var(--hue-color), 29%, 16%);
+  --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
+  --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
+  
 
   --body-font: "Poppins", sans-serif;
 
@@ -130,6 +131,12 @@ img {
 button {
   border-style: none;
   cursor: pointer;
+}
+
+/*background colors A1A40  160040  06113C*/
+
+#header{
+  background-color: black;
 }
 
 /* REUSABLE CSS CLASSES  */
