@@ -152,6 +152,7 @@ button {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: var(--mb-3);
+  font-size: 20px;
 }
 
 .section_title,
@@ -304,6 +305,7 @@ button {
 }
 
 .home_blob-img {
+  
   width: 170px;
 }
 
@@ -365,7 +367,7 @@ button {
 }
 
 .button:hover {
-  background-color: var(--first-color-alt);
+  background-color: #ECC5FB;
 }
 
 .button_icon {
@@ -383,7 +385,7 @@ button {
 /* ABOUT */
 
 #projects{
-  background-color: #711A75;
+  background-color: #0F044C;
   padding-bottom: 100px;
 }
 #about{
@@ -504,7 +506,7 @@ button {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: var(--mb-2);
-  background-color: #711A75;
+  background-color: #711A75
 }
 
 .qualification_button {
@@ -678,6 +680,24 @@ button {
   padding: 0.25rem 0.5rem 0.5rem 0;
 }
 
+.box {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.one {
+  flex: 1 1 auto;
+}
+
+.two {
+  flex: 1 1 auto;
+}
+
+.three {
+  flex: 1 1 auto;
+}
+
 .contact_label {
   font-size: var(--smaller-font-size);
   color: var(--title-color);
@@ -699,6 +719,7 @@ button {
 }
 
 .footer_container {
+  
   row-gap: 3.5rem;
 }
 
@@ -708,9 +729,10 @@ button {
 }
 
 .footer_title {
-  font-size: var(--h1-font-size);
+  font-size: var(--h4-font-size);
   margin-bottom: var(--mb-0-25);
   padding-right: 40px;
+ 
   
 }
 
@@ -1041,4 +1063,161 @@ button {
   .contact_inputs {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .card-deck{
+    color: white;
+    background-color: #0F044C;
+    padding-top: 50px;
+    padding-bottom: 30px;
+ 
+  }
+  .card{
+    background-color: black;
+  }
+  .card-text{
+    text-align: center;
+    width: 250px;
+    margin:auto;
+  }
+  .card-title{
+    text-align: center;
+    margin:auto;
+  }
+
+  .card-img-top{
+    
+    
+  }
+  @-webkit-keyframes bounce {
+    0% {
+transform: scale(1,1) translate(0px, 0px);
+}
+
+30%{
+transform: scale(1,0.8) translate(0px, 10px); 
+}
+
+75%{
+transform: scale(1,1.1) translate(0px, -25px); 
+}
+
+100% {
+transform: scale(1,1) translate(0px, 0px);
+}
+}
+
+
+  .allah{
+    -webkit-animation: bounce 1s infinite;
+  }
+
+  .zoom {
+    
+    transition: transform .2s; /* Animation */
+    
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  
+ 
+  .email1{
+    padding-top: 30px;
+   
+    margin-left: 100px;
+    margin:auto;
+  }
+  
+  .xd{
+    background-color: #711A75;
+    height: 5px;
+  }
+
+  @import url('https://fonts.googleapis.com/css?family=Fira+Mono:400');
+
+
+.glitch_anim{
+  
+  font-family: 'Fira Mono', monospace;
+  animation: glitch 1s linear infinite;
+}
+
+@keyframes glitch{
+  2%,64%{
+    transform: translate(2px,0) skew(0deg);
+  }
+  4%,60%{
+    transform: translate(-2px,0) skew(0deg);
+  }
+  62%{
+    transform: translate(0,0) skew(5deg); 
+  }
+}
+
+.glitch_anim:before,
+.glitch_anim:after{
+  content: attr(title);
+  position: absolute;
+  left: 0;
+}
+
+.glitch_anim:before{
+  animation: glitchTop 1s linear infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+}
+
+@keyframes glitchTop{
+  2%,64%{
+    transform: translate(2px,-2px);
+  }
+  4%,60%{
+    transform: translate(-2px,2px);
+  }
+  62%{
+    transform: translate(13px,-1px) skew(-13deg); 
+  }
+}
+
+.glitch_anim:after{
+  animation: glitchBotom 1.5s linear infinite;
+  clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+}
+
+@keyframes glitchBotom{
+  2%,64%{
+    transform: translate(-2px,0);
+  }
+  4%,60%{
+    transform: translate(-2px,0);
+  }
+  62%{
+    transform: translate(-22px,5px) skew(21deg); 
+  }
+}
+
+.siu1{
+  
+  margin-top: 30px;
+  
+}
+
+.siu2{
+  margin-bottom: 10px;
+}
+
+#qualification{
+  margin-bottom: 50px;
+}
+
+
+
+
+
+  
+  
+  
+
 }
