@@ -203,3 +203,5 @@ var typed = new Typed(".type", {
   backSpeed: 60,
   loop: true,
 });
+
+
