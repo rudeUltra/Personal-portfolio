@@ -1,13 +1,12 @@
 # Personal-portfolio
-My Personal Portfolio Website 
-
-With Contact info + Project Details
+<h1>My Personal Portfolio Website</h1> 
+<h2>Made with HTML,CSS,Bootstrap and Vanilla Javascript with a simple and elegant UI</h2> 
 
 ![](assets/img/port.gif)
 
+![](assets/img/port5.png)
 
 
-![](https://github.com/rudeUltra/Personal-portfolio/blob/main/assets/img/Screenshot%202022-04-12%20223557.png)
 
 
-![](https://github.com/rudeUltra/Personal-portfolio/blob/main/assets/img/Screenshot%202022-04-12%20223618.png)
+![](assets/img/port4.png)
