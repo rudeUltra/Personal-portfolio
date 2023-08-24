@@ -1108,7 +1108,7 @@ transform: scale(1,1) translate(0px, 0px);
 
 
   .allah{
-    -webkit-animation: bounce 1s infinite;
+    -webkit-animation: bounce 2s infinite;
   }
 
   .zoom {
@@ -1226,6 +1226,59 @@ transform: scale(1,1) translate(0px, 0px);
   color: #AEFEFF;
 }
 
+
+.siu5{
+  position: relative;
+  padding: 5px 10px;
+  transition: all 0.5s;
+}
+
+.siu5:before{
+  content: "";
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  width: 12px;
+  height: 12px;
+  border: 3px solid yellow;
+  border-width: 0 0 3px 3px;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.siu5:hover:before{
+  opacity: 1;
+  bottom: -1px;
+  left:-1px
+}
+
+.siu5:hover:after{
+  opacity: 1;
+  top: -1px;
+  right:-1px
+}
+
+.siu5:after{
+  content: "";
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  opacity: 0;
+  width: 12px;
+  height: 12px;
+  border: 3px solid yellow;
+  border-width: 3px 3px 0 0;
+  transition: all 0.3s;
+}
+
+.siu5:hover{
+  background-color: #EA1179;
+  color: #fff;
+}
+
+.siu5:hover span{
+  color: white;
+}
 
 
 
